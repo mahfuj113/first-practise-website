@@ -1,0 +1,117 @@
+/* Common Shared Styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.btn-primary {
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    padding: 20px 25px;
+    /* background: #FFF; */
+}
+
+/* header related styles */
+.header {
+    background-image: url("./images/banner/banner3.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+.banner {
+    text-align: right;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    /* transform: translateY(-50px); */
+
+}
+
+.banner-heading {
+    color: #FFF;
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.banner-context {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+/* This is failures section styles */
+.failures {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 150px 300px;
+
+}
+
+.failures-heading {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.failures-content {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 15px;
+
+}
+
+.failures-items {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0;
+    list-style: none;
+}
+
+/* My plan section styles */
+.plan {
+    color: #151414;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.plan-container {
+    display: flex;
+    justify-content: center;
+}
+
+.plan-item {
+    padding: 50px 100px;
+}
+
+.plan-header {
+    color: #151414;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.plan-description {
+    color: #737272;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 15px;
+}
