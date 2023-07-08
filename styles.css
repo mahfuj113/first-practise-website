@@ -16,7 +16,6 @@ body {
     border-radius: 5px;
     border: none;
     padding: 20px 25px;
-    /* background: #FFF; */
 }
 
 /* header related styles */
@@ -33,7 +32,6 @@ body {
     position: absolute;
     top: 30%;
     left: 50%;
-    /* transform: translateY(-50px); */
 
 }
 
@@ -146,7 +144,7 @@ body {
     font-weight: 600;
     padding: 20px;
 }
-
+/* This is footer styles section */
 .footer-container {
     display: flex;
     justify-content: space-around;
