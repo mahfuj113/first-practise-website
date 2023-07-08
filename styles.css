@@ -115,3 +115,109 @@ body {
     font-weight: 500;
     margin-top: 15px;
 }
+
+/* This is watch section styles */
+.call-now-container {
+    padding: 100px 200px;
+
+}
+
+.call-now {
+    background-image: linear-gradient(90deg, blue, #efe2e24d), url("images/watch.png");
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.call-description {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.call-now-button {
+    color: #005FAC;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    background: #151414;
+    color: #fff;
+    padding: 130px 230px;
+}
+
+.footer-header {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.footer-description {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 25px;
+    width: 50%;
+}
+
+.footer-email {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.footer-phone {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.footer-link-images {
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.Subscribe-header {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 20px 100px 20px 20px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #151414;
+    color: #F3F3F3;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.subscriber-button {
+    color: #FFF;
+    width: 170px;
+    height: 70px;
+    border-radius: 8px;
+    background: #005FAC;
+    padding: 20px 35px;
+    font-size: 20px;
+    font-weight: 600;
+}
